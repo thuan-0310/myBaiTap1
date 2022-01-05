@@ -1,9 +1,88 @@
-h1, h4 {
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    padding: 15px;
+    font-family: Segoe UI;
+}
+ul {
+    padding-left: 20px;
+}
+a {
+    text-decoration: none;
+    margin: 5px 0px;
+}
+h3 {
+    color: red;
+    margin: 20px 0px;
+}
+
+._3cot {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+._1cot {
+    width: calc((100% - 30px) / 3);
+    height: 280px;
+    border: 1px solid gray;
+
+}
+._1cot .indam {
+    font-weight: bold;
+    margin-top: 10px;
+}
+._1cot .sotour {
+    color: gray;
+    font-size: 12px;
+    margin-top: 5px;
+}
+._1cot .duoi {
+    padding-left: 13px ;
+}
+._1cot .tren {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    top:0;
+    left:0;
+    transition: 0.4s;
+    overflow: hidden;
+}
+._1cot .tren img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+._1cot .tren:hover img {
+    transform: scale(1.2);
+}
+
+._1cot .tren .nenden {
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    background-color: black;
+    opacity: 0.8;
+    
+}
+._1cot .tren p.tieude {
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+}
+
+._1cot img {
+    width: 100%;
+}
+footer {
     text-align: center;
-}
-h2, h5 {
-    text-align: right;
-}
-h3, h6 {
-    text-align: left;
 }
